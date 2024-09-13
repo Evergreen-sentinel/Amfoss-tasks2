@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "subtask04",
+            "request": "launch",
+            "mainClass": "subtask04",
+            "projectName": "task-03_299b3d4e"
+        },
+        {
+            "type": "java",
+            "name": "subtask03",
+            "request": "launch",
+            "mainClass": "subtask03",
+            "projectName": "task-03_299b3d4e"
+        },
+        {
+            "type": "java",
+            "name": "subtask02",
+            "request": "launch",
+            "mainClass": "subtask02",
+            "projectName": "task-03_299b3d4e"
+        },
+        {
+            "type": "java",
+            "name": "subtask01",
+            "request": "launch",
+            "mainClass": "subtask01",
+            "projectName": "task-03_299b3d4e"
+        },
+        {
+            "type": "java",
+            "name": "subtask",
+            "request": "launch",
+            "mainClass": "subtask",
+            "projectName": "task-03_299b3d4e"
+        }
+    ]
+}

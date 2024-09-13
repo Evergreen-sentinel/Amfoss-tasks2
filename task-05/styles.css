@@ -1,0 +1,149 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.product-catalog {
+    width: 60%;
+    
+}
+
+.terminal {
+    width: 40%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.terminal-window {
+    background-color: #000;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+
+.terminal-output {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.terminal-input {
+    display: flex;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    flex-grow: 1;
+}
+
+.homepage{
+    display: flex;
+    position: absolute;
+    top: 20px;
+}
+
+.top{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 300px;
+}
+
+.bottom{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.product-card {
+    background-color: #f0f8e8; 
+    padding: 15px; 
+    text-align: center;
+    position: relative;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.product-card img {
+    width: 170px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin: 30px;
+}
+
+
+.heart-btn {
+    position: absolute;
+    top: 350px;
+    right: 150px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.cart-btn{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.heart-btn:hover, .cart-btn:hover {
+    background-color: #f0c8c8; 
+}
+
+
+.price {
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
