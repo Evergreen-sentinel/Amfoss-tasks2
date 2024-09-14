@@ -4,7 +4,7 @@
 Hallo, my name is Arjun K Indunesh and my hobbies are to dance and practise drawing. I'm in seach of more opportunity to improve my coding skills
 
 ## My goals for the next 6 months
-I'm not well informed about todays technology so i would like to know more of what happens in the corporate world and to master a particular programming language and if more time master a particular framework.
+I'm not well informed about today's technology, but I would like to learn more about what happens in the corporate world. I also want to learn mobile app development and explore backend development.
 
 # Tasks Status
 My task statistics are as shown-
